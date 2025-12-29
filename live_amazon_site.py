@@ -36,8 +36,9 @@ if price < 400:
         connection.sendmail(
         from_addr=my_email,
         to_addrs=recipient_email,
-        msg=(f"Subject:Amazon Price Alert!!! \n\nInstant Pot Duo Plus 9-in-1 Electric Pressure Cooker,\
-        Slow Cooker, Rice Cooker, Steamer, Sauté, Yogurt Maker,\
-         Warmer & Sterilizer, Includes App With Over 800 Recipes, Stainless Steel, 3 Quart  for just ${price}").encode("utf-8")
+        msg=(f"Subject:Samsung Galaxy S25  Price Alert!!! \n\nSamsung Galaxy S25 FE Cell Phone (2025), 256GB AI Smartphone,\
+        Unlocked Android, Large Display, 4900mAh Battery, High Res-Camera, AI Photo Edits, Durable, US 1 Yr Warranty, JetBlack.\
+        for just ${price}").encode("utf-8")
         )
+
 
