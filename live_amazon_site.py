@@ -6,6 +6,7 @@ load_dotenv()
 
 my_email = os.getenv('MY_EMAIL')
 my_password = os.getenv('MY_PASSWORD')
+user_agent = os.getenv('USER_AGENT')
 
 recipient_email = os.getenv('RECIPIENT_EMAIL')
 
@@ -13,7 +14,7 @@ AMAZON_URL = "https://www.amazon.com/Samsung-Smartphone-Unlocked-Res-Camera-Warr
 
 header = {
 "Accept-Language": "en-US,en;q=0.6",
-"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+"User-Agent": user_agent,
 }
 
 response = requests.get(AMAZON_URL, headers=header)
@@ -40,5 +41,6 @@ if price < 400:
         Unlocked Android, Large Display, 4900mAh Battery, High Res-Camera, AI Photo Edits, Durable, US 1 Yr Warranty, JetBlack.\
         for just ${price}").encode("utf-8")
         )
+
 
 
