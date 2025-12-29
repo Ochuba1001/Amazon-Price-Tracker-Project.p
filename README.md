@@ -1,7 +1,7 @@
-🛒 Amazon Price Tracker
+# 🛒 Amazon Price Tracker
 Track product prices on Amazon and get notified when they drop below your target threshold.
 
- ## Features
+ # Features
 🔍 Search and track multiple Amazon products by URL
 
 💰 Set custom target prices for alerts
@@ -12,8 +12,8 @@ Track product prices on Amazon and get notified when they drop below your target
 
 🖥️ Simple CLI and/or web dashboard interface
 
- ## Getting Started
-# Prerequisites
+# Getting Started
+##  Prerequisites
 
 Python 3.7+
 
